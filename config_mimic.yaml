@@ -1,5 +1,5 @@
 modelname: mimic_fasttext
-datapack_dir: C:/Users/isogawa/word2vec_en/mimic/simmimic_basedatapack_fasttext_100000.pkl
+datapack_dir: tmp/dir
 BPE: Nomore
 GPU: 0
 epoch: 40
@@ -17,7 +17,7 @@ use_relation: Normal
 NN_model: RNN
 init_emb: None
 wordvector: FastText
-wordvectordir: D:/wiki_20180801/fastText/build/fasttext.sgns.bin
+wordvectordir: your/wordvector/dir
 Objective_Function: MSE
 load_train: False
 overfit: False
