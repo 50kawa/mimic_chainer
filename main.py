@@ -289,8 +289,8 @@ def main():
             pickle.dump(dev_loss_data, f)
 
         # evaluate with origin vector
-        from trainedmodel_mimic_or_simmimic import interpreter
-        interpreter = interpreter(config)
+        from model import Interpreter
+        interpreter = Interpreter(config)
 
         mse_total = 0
         cos_sim_total = 0
