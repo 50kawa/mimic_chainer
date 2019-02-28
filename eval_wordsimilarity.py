@@ -23,7 +23,7 @@ with open(args.configfile, "r+") as f:
 
 interpreter = Interpreter(config)
 
-file_path = "../eval-word-vectors/data/word-sim-csv/"
+file_path = "dataset/dir"
 files = os.listdir(file_path)
 
 columns=["vocab"]
