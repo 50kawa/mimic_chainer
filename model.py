@@ -10,8 +10,6 @@ import chainer
 import chainer.functions as F
 import chainer.links as L
 from chainer import cuda,  serializers, Variable
-import sys
-sys.path.append('C:/Users/isogawa/word2vec_en/mimic/subword-nmt/subword_nmt')
 from apply_bpe import BPE
 from util import Dataread
 
